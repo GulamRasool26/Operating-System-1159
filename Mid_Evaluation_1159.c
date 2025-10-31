@@ -59,6 +59,7 @@ int main()
     printf("Total Sum: %d and the count is : %d\n",sum,count);
     
     printf("Main Thread Ending.........\n");
+    pthread_mutex_destroy(&mutex);
 
 
 }
